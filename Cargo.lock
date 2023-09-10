@@ -1,0 +1,49 @@
+[root]
+name = "async-runtime"
+version = "0.1.0"
+dependencies = [
+  "futures-core 0.3.17",
+  "tokio 1.10.0",
+]
+
+[[package]]
+name = "futures-core"
+version = "0.3.17"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a6d6c1d88d4cb7e783be72802dbb355ee9f7acbafe146af36e0844e3dc201260"
+
+[[package]]
+name = "tokio"
+version = "1.10.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b406992f042129648d90effff40f88a8cab7bd8f0b131e89b4b94431c8a65d97"
+
+[[package]]
+name = "tokio-util"
+version = "0.6.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d0f10c38eddcc575d1d9ce4c9b5d4b7c5f5c2c9defd737b910e67e8b1ec8e14b"
+
+[[package]]
+name = "tokio-macros"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0fd7d0e22d9a0b7f6aadd6b0a11be19189e24e5f7136957eb390865db2d0cc67"
+
+[[package]]
+name = "tokio-macros 2.0"
+version = "2.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "00fec3148e0c7a3e79d36fc92f4e4890a9912345c94627c2857d2926e0c2e2f2"
+
+[[package]]
+name = "tokio-util-macros"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6d8e7a2a6bf743235af26776f69a9d06c0e7e10c546f7b2c63234b866ebeed52"
+
+[[package]]
+name = "futures"
+version = "0.3.17"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f0f1d15758b3e8ceea460855d6462c13a8dfe4de02181c0c8b4489ce824769b0"
